@@ -11,7 +11,7 @@ pipeline {
          }
          stage("Checkout from SCM") {
              steps {
-                     git branch: 'main', url: 'https://github.com/Ashfaque-9x/a-reddit-clone-gitops'
+                     git branch: 'main', url: 'https://github.com/santanucispl/a-reddit-clone-gitops'
              }
          }
          stage("Update the Deployment Tags") {
